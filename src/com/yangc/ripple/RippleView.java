@@ -135,8 +135,8 @@ public class RippleView extends RelativeLayout {
 		this.setClickable(true);
 	}
 
-	@SuppressLint("InlinedApi")
 	@Override
+	@SuppressLint("InlinedApi")
 	public void draw(Canvas canvas) {
 		super.draw(canvas);
 		if (animationRunning) {
